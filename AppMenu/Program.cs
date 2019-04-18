@@ -19,8 +19,8 @@ namespace AppMenu
 
         static bool Menu()
         {
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
          
             Console.Title = "Personas Manager";
