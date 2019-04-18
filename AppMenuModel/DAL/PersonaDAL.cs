@@ -46,7 +46,18 @@ namespace AppMenuModel.DAL
 
         public void Eliminar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ingrese el rut de la persona a eliminar:");
+            string rut = Console.ReadLine().Trim();
+            if (Persona.Remove(rut))
+            {
+                Console.WriteLine($"La persona con el rut: {rut} fue eliminada!");
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("ERROR: La persona no pudo ser eliminada");
+                Console.ReadKey();
+            }
         }
 
 
