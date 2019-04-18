@@ -34,7 +34,7 @@ namespace AppMenu
             Console.WriteLine("-------------------");
             Console.WriteLine("0) Salir");
             // 1
-            // 1 
+
             string o = Console.ReadLine().Trim();
 
             switch (o)
